@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/starship-vault/documents/Git/Hello_World'
+make: Leaving directory '/mnt/starship-vault/documents/Git/Hello_World'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
