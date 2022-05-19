@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+let say_hello = "Hello World!";
+console.log(say_hello);

@@ -1,3 +1,6 @@
+//  hello_world -- Prints Hello world!
+//  Author: Aidan Neal
+
 #include <iostream>
 #include <string>
 

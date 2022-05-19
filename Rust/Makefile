@@ -7,7 +7,7 @@ hello_world:
 	${C} ./build/${PKGNAME}.rs -o ${PKGNAME}
 
 install: hello_world
-	mkdir -p ${PREFIX}/usr/bin/ || echo "skipping"
+	mkdir -p ${PREFIX}/usr/bin/
 	install ./${PKGNAME} ${PREFIX}/usr/bin/${PKGNAME}
 
 uninstall:

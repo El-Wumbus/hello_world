@@ -1,3 +1,6 @@
+//  hello_world -- Prints Hello world!
+//  Author: Aidan Neal
+
 package main
 
 import "fmt"
