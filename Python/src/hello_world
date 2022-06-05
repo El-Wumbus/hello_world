@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# Assigning the string "Hello World!" to the variable say_hello.
 say_hello = "Hello World!"
+# Printing the string "Hello World!" to the screen.
 print(say_hello)
 exit(0)
