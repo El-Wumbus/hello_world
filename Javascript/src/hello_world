@@ -1,3 +1,5 @@
 #!/usr/bin/env node
+// Declaring a variable called say_hello and assigning it the value of "Hello World!"
 let say_hello = "Hello World!";
+// Printing the value of the variable say_hello to the console.
 console.log(say_hello);

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed May 18 04:35:18 2022
+# Make data base, printed on Sun Jun  5 12:36:56 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ NO_AT_BRIDGE = 1
 # environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/decator/.gtkrc:/home/decator/.config/gtkrc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-79c51956-ecb9-4902-9867-2bafe80424ec.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bd41b088-2ad9-4949-aeb9-262e5da28f7a.sock
 # environment
 VSCODE_CWD = /home/decator
 # default
@@ -40,6 +40,10 @@ PWD = /mnt/starship-vault/documents/Git/Hello_World
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 MAIL = /var/spool/mail/decator
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/decator
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -47,9 +51,9 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/decator/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /home/decator/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session2
 # environment
 LANG = C
 # environment
@@ -77,8 +81,6 @@ XDG_CONFIG_DIRS = /home/decator/.config/kdedefaults:/etc/xdg
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-OMF_PATH = /home/decator/.local/share/omf
-# environment
 XCURSOR_THEME = WhiteSur-cursors
 # environment
 XDG_SESSION_DESKTOP = KDE
@@ -89,13 +91,15 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 461992
+VSCODE_PID = 3713
 # environment
 XDG_SESSION_TYPE = x11
+# environment
+CUDA_PATH = /opt/cuda
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/Aidan-PC:@/tmp/.ICE-unix/835,unix/Aidan-PC:/tmp/.ICE-unix/835
+SESSION_MANAGER = local/Aidan-PC:@/tmp/.ICE-unix/2704,unix/Aidan-PC:/tmp/.ICE-unix/2704
 # automatic
 *F = $(notdir $*)
 # environment
@@ -113,15 +117,15 @@ SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
 # environment
-PLATFORMIO_CALLER = vscode
+DOTNET_BUNDLE_EXTRACT_BASE_DIR = /home/decator/.cache/dotnet_bundle_extract
 # environment
-SHLVL = 2
+SHLVL = 1
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/decator/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/home/decator/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -137,8 +141,6 @@ KDE_APPLICATIONS_AS_SCOPE = 1
 # environment
 XDG_SEAT = seat0
 # environment
-NO_PROXY = 127.0.0.1
-# environment
 XDG_CURRENT_DESKTOP = KDE
 # automatic
 +F = $(notdir $+)
@@ -153,13 +155,11 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = decator
 # environment
-PLATFORMIO_PATH = /home/decator/.platformio/penv/bin:/home/decator/.platformio/penv:/home/decator/.platformio/python3/bin:/home/decator/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
-# environment
 XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 639
+SYSTEMD_EXEC_PID = 2563
 # environment
 DISPLAY = :0
 # environment
@@ -181,15 +181,13 @@ XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-PLATFORMIO_IDE = 2.4.3
-# environment
 GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/decator/.gtkrc-2.0:/home/decator/.config/gtkrc-2.0
 # environment
 HOME = /home/decator
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-a235b190-1.67.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a235b190-1.67.2-main.sock
 # environment
 XDG_SESSION_ID = 2
 # environment
@@ -214,8 +212,10 @@ KDE_SESSION_VERSION = 5
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # environment
 KDE_FULL_SESSION = true
+# environment
+DOTNET_ROOT = /usr/share/dotnet
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=3/128=2%
+# Load=101/1024=10%, Rehash=0, Collisions=4/128=3%
 
 # Pattern-specific Variable Values
 
@@ -223,9 +223,9 @@ KDE_FULL_SESSION = true
 
 # Directories
 
-# . (device 43, inode 73052): 9 files, no impossibilities.
+# . (device 46, inode 73052): 21 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -275,12 +275,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 128 B / avg = 7 B
-# current buf: size = 8162 B / used = 128 B / count = 17 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 201 B / avg = 6 B
+# current buf: size = 8162 B / used = 201 B / count = 29 / avg = 6 B
 
-# strcache performance: lookups = 20 / hit rate = 15%
+# strcache performance: lookups = 32 / hit rate = 9%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/20=0%
-# Finished Make data base on Wed May 18 04:35:18 2022
+# Load=29/8192=0%, Rehash=0, Collisions=0/32=0%
+# Finished Make data base on Sun Jun  5 12:36:56 2022
 
  
